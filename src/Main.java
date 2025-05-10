@@ -31,6 +31,11 @@ public class Main {
 
 //        Task 3 // Реализовать удобный вывод тругольника без 0
 
-        int
+        int [][] trian = {{1}, {1, 1}, {1, 1, 1}, {1, 1, 1, 1}, {1, 1, 1, 1, 1}};
+
+        for (int i = 0; i < trian.length; i++) {
+          for (int j = 0; j < trian [i].length; j++);
+        }
+        System.out.println(Arrays.deepToString(trian).replace("], ", "]\n"));
     }
 }
